@@ -1,0 +1,7 @@
+interface:
+  display_name: "秩野Vibe小红书图文"
+  short_description: "制作可编辑、可归档的秩野Vibe小红书图文"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $artifact-template-vibe to plan and create an editable 秩野Vibe Xiaohongshu carousel."
+policy:
+  allow_implicit_invocation: true
