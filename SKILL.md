@@ -1,6 +1,6 @@
 ---
 name: artifact-template-vibe
-description: "Plan, create, revise, and archive editable Xiaohongshu carousel posts for 秩野Vibe. Use when the user names 秩野Vibe小红书图文, invokes $artifact-template-vibe, or continues this account's established graphic-post workflow. Confirm copy before visual generation, preserve the retained brand style, and deliver editable Canva-ready designs."
+description: "Plan, create, revise, and archive Xiaohongshu carousel posts for 秩野Vibe. Use for this account's established graphic-post workflow. Respect copy and design approvals, preserve the brand style, and deliver confirmed local images; upload to Canva only after explicit confirmation for that upload."
 ---
 
 # 秩野Vibe小红书图文
@@ -13,13 +13,14 @@ Create publishable carousel posts for the 秩野Vibe account while preserving th
 2. Use `assets/reference.png` as the visual-language reference. Keep it unchanged.
 3. Read [references/production-workflow.md](references/production-workflow.md) before creating or revising a topic.
 4. Read [references/visual-style.md](references/visual-style.md) before generating backgrounds or laying out pages.
+5. Read [references/collaboration-workflow.md](references/collaboration-workflow.md) for full production, designated DeepSeekHarness context, design research, multi-agent coordination, and style tests.
 
 ## Operating rule
 
 Work in two approval stages:
 
-1. **Copy stage:** propose the publishing title, cover hook, page count, and every page's final on-image text. Build the publishing title and cover main hook as `行动激励＋具体方法＋明确结果`; use the cover's supporting small text to add `用户痛点＋干货形式＋收藏理由`. Save the draft in the topic folder. Stop visual production until the user confirms.
-2. **Design stage:** after confirmation, generate or select backgrounds, build the pages with separately editable text, inspect the result, and prepare a Canva-editable deliverable. Upload or save to Canva only when the user explicitly confirms that action.
+1. **Copy stage:** propose the publishing title, cover hook, page count, and every page's final on-image text. Build the publishing title and cover main hook as `行动激励＋具体方法＋明确结果`; keep the publishing title used in the publishing-information file within 20 visible characters; use the cover's supporting small text to add `用户痛点＋干货形式＋收藏理由`. Save the draft in the topic folder. Stop visual production until the user confirms.
+2. **Design stage:** after confirmation, generate or select backgrounds, build the pages with separately editable text, and inspect the result. Follow the user's requested staged review; after approval archive final images and publishing information locally. Prepare a Canva-editable deliverable when needed. Before every Canva upload or save, show the final pages and obtain the user's explicit confirmation for that specific upload. Earlier authorizations and requests to create or output a post are not confirmation of a new upload; show revised pages and obtain confirmation again after changes.
 
 If the user requests only discussion, copy, prompts, publishing information, or a single test image, do only that requested stage.
 
@@ -31,6 +32,7 @@ If the user requests only discussion, copy, prompts, publishing information, or 
 - Create obvious before/after differences only in the variable being explained. Keep person, camera angle, light, expression, clothing, and background consistent when comparisons require the same subject.
 - Treat cover-subject scale as a click-through requirement: review the cover at mobile-thumbnail size and make the core person, product, or comparison legible immediately. Do not shrink the subject merely to create decorative whitespace. For people-led covers, prefer waist-up, three-quarter, or tightly cropped comparisons; use a full-body view only when the topic requires it, and keep the figure visually dominant.
 - Inspect all pages for typography, cropping, missing body parts, duplicated objects, distorted accessories, and unreadable text before delivery.
+- After all pages are approved, put the numbered final images and publishing information in the topic's `已确认版` folder. Publishing information includes a suggested date and time, title within 20 visible characters, body, hashtags and comment operations. Preserve earlier versions.
 - After Canva import, verify page count, editable text, 3:4 canvas ratio, and the `已保存所有更改` state. Keep the completed design open and return the edit link.
 
 ## Scope and boundaries
